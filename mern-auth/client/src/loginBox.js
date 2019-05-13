@@ -6,11 +6,11 @@ function loginbox(props) {
         <Col md={12}>
             <div className={"loginbox container"}>
                 <Row>
-                    <input type="text"></input>
+                    <input type="text" id="username"></input>
                 </Row>
-                    <input type="password"></input>
+                    <input type="password" id="userpassword"></input>
                 <Row>
-                    <input type="email"></input>
+                    <input type="email" id="useremail"></input>
                 </Row>
             </div>
         </Col>
