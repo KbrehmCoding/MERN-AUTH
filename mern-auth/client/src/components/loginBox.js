@@ -6,8 +6,6 @@ class LoginBox extends Component {
     state = {
         loginPassword: '',
         loginUsername: '',
-        signupPassword: '',
-        signupUsername: '',
     };
 
     onChange = event => {
