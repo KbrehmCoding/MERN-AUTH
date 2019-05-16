@@ -4,9 +4,9 @@ import React, { Component } from 'react';
 
 class LoginBox extends Component {
     state = {
-        loginPassword: '',
-        loginUsername: '',
-        loginUseremail: '',
+        userpassword: '',
+        username: '',
+        useremail: '',
     };
 
     onChange = event => {
