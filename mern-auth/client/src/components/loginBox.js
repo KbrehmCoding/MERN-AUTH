@@ -3,6 +3,17 @@ import React, { Component } from 'react';
 
 
 class LoginBox extends Component {
+    state = {
+        loginPassword: '',
+        loginUsername: '',
+        signupPassword: '',
+        signupUsername: '',
+    };
+
+    onChange = event => {
+        const { name, value } = event.currentTarget;
+        this.setState({ [name]: value });
+    };
     render() {
         return (
             <Col md={12}>
