@@ -11,8 +11,8 @@ class NavBar extends Component {
         return (
             <nav>
                 <ul style={navStyle}>
-                    <li><a href="default.asp">Home</a></li>
-                    <li><a href="about.asp">About</a></li>
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
                 </ul>
             </nav>
         );

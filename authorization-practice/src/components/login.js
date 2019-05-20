@@ -24,13 +24,6 @@ class LoginBox extends Component {
                     <Row>
                         <input type="email" id="useremail"></input>
                     </Row>
-                    <Row>
-                        {/* add in submit button */}
-                        this.props.onAuthChanged({
-                            type: 'LOGIN',
-                            username: this.state.loginUsername,
-                        });
-                    </Row>
                 </div>
             </Col>
         );
