@@ -1,18 +1,29 @@
 import React, { Component } from 'react';
 
-var navStyle= {
-        listStyleType: 'none',
-        margin: '0',
-        padding: '0',
+var ulStyle = {
+    backgroundColor: 'lightpurple',
+    listStyleType: 'none',
+    margin: '0px, 100px, 0px, 20px',
+    padding: '0',
 };
 
+var aStyle = {
+    display: 'inline',
+    float: 'right',
+    width: '60px',
+};
+
+var navStyle = {
+    backgroundColor: 'lightpurple',
+    padding: '50px',
+};
 class NavBar extends Component {
     render() {
         return (
-            <nav>
-                <ul style={navStyle}>
-                    <li><a>Home</a></li>
-                    <li><a>About</a></li>
+            <nav style={navStyle}>
+                <ul style={ulStyle}>
+                    <li><a style={aStyle}>Home</a></li>
+                    <li><a style={aStyle}>About</a></li>
                 </ul>
             </nav>
         );
