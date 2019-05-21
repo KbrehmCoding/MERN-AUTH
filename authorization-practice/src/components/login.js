@@ -55,3 +55,10 @@ class LoginBox extends Component {
 }
 
 export default LoginBox;
+
+
+/* now that the front end is running and looking ok I can start on the authentication part
+need to encrypt senstive information like the password
+store the user info in a database
+compare user info given to user info in database
+*/
