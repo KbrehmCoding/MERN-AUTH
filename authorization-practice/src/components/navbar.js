@@ -15,7 +15,9 @@ var aStyle = {
 
 var navStyle = {
     backgroundColor: 'lightpurple',
-    padding: '50px',
+    border: '3px solid',
+    margin: '10px',
+    padding: '20px',
 };
 class NavBar extends Component {
     render() {

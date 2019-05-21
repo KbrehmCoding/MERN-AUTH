@@ -8,7 +8,7 @@ var inputStyle = {
 };
 
 var loginBoxStyle = {
-    border: 'solid',
+    border: '3px solid',
     padding: '20px',
 };
 
@@ -26,24 +26,24 @@ class LoginBox extends Component {
     render() {
         return (
             <Col md={12}>
-                <div className={"loginbox container"} stye={loginBoxStyle}>
+                <div className={"loginbox container"} style={loginBoxStyle}>
                     <Row>
                         <label style={inputStyle}>Username</label>
                     </Row>
                     <Row>
-                        <input style={inputStyle} type="text" id="username"></input>
+                        <input style={inputStyle} type="text" id="username" required></input>
                     </Row>
                     <Row>
                         <label style={inputStyle}>Password</label>
                     </Row>
                     <Row>
-                        <input style={inputStyle} type="password" id="userpassword"></input>
+                        <input style={inputStyle} type="password" id="userpassword" required></input>
                     </Row>
                     <Row>
                         <label style={inputStyle}>Email Address</label>
                     </Row>
                     <Row>
-                        <input style={inputStyle} type="email" id="useremail"></input>
+                        <input style={inputStyle} type="email" id="useremail" required></input>
                     </Row>
                     <Row>
                         <button type="submit">Submit</button>
